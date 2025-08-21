@@ -13,6 +13,7 @@ on:
 jobs:
   run-dev:
     runs-on: ubuntu-latest
+    environment: nonprod
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
