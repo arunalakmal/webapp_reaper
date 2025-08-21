@@ -399,7 +399,7 @@ def main():
     )
     parser.add_argument(
         '--config-path',
-        default='reaper/webapp.json',
+        default='webapp.json',
         help='Path to the configuration file containing web apps to protect'
     )
     parser.add_argument(

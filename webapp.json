@@ -1,0 +1,14 @@
+{
+  "webApps": [
+    "workbench-nonprod-writerassistant",
+    "workbench-nonprod-spa",
+    "workbench-nonprod-api"
+  ],
+  "description": "Web apps and repositories to protect during ACR cleanup",
+  "lastUpdated": "2025-08-15",
+  "metadata": {
+    "version": "1.0",
+    "environment": "production",
+    "owner": "Aruna Fernando"
+  }
+}
