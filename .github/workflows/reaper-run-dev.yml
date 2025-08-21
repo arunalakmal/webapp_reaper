@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
       - name: Run Reaper
         run: |
-          python reaper/reaper.py --subscription-id '${{ secrets.AZURE_SUBSCRIPTION_ID }}' --resource-group '${{ vars.AZURE_RESOURCE_GROUP }}' --registry-name '${{ vars.AZURE_REGISTRY_NAME }}'
+          python reaper/reaper.py --subscription-id '${{ secrets.AZURE_SUBSCRIPTION_ID }}' --resource-group '${{ vars.AZURE_RESOURCE_GROUP }}' --registry-name '${{ vars.AZURE_REGISTRY_NAME }}' --execute
         env:
           AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
           AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
