@@ -1,8 +1,6 @@
 {
   "webApps": [
-    "workbench-nonprod-writerassistant",
-    "workbench-nonprod-spa",
-    "workbench-nonprod-api"
+    "sample-app-1"
   ],
   "description": "Web apps and repositories to protect during ACR cleanup",
   "lastUpdated": "2025-08-15",
